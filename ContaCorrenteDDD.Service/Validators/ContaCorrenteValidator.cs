@@ -7,7 +7,7 @@ namespace ContaCorrenteDDD.Service.Validators
 {
     public class ContaCorrenteValidator : AbstractValidator<ContaCorrente>
     {
- 	    public ContaCorrenteValidator(Debito debito )
+ 	    public ContaCorrenteValidator()
         {
             RuleFor(c => c)
                     .NotNull()

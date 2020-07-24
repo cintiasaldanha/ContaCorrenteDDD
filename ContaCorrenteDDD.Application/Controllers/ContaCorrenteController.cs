@@ -15,6 +15,7 @@ namespace ContaCorrenteDDD.Application.Controllers
     {
         private BaseService<ContaCorrente> service = new BaseService<ContaCorrente>();
 
+       
         [HttpPost]
         public IActionResult Post([FromBody] ContaCorrente item)
         {
